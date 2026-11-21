@@ -2,6 +2,8 @@
 
 简体中文 · [English](README.en.md)
 
+**旧版源码，按需维护。** 此次拆分后的 Windows 实机启动、翻译和 CUDA 验证待完成。[Windows 实机验证步骤](Windows实机验证.md) · [Mac 主项目与下载](https://github.com/Liuyy026/screen-capture-translator-public)
+
 Koma 的独立 Windows 阅读器源码。打开本地日文漫画文件夹，用 Mokuro 和 Manga OCR 识别文字，通过 Ollama 或 oMLX 翻成简体中文，在右侧查看对照，也可在可信区域切换中文覆盖。
 
 第一次使用请按 [Windows 实机验证](Windows实机验证.md) 安装 Python 依赖和模型。环境就绪后，双击 [启动Windows.bat](windows/启动Windows.bat)，打开 `samples` 文件夹，选中 `01.webp`，点击「识别并翻译」。翻译后的样页预期为 5 个文字块和 5 条有效译文。页面缓存位于 `%LOCALAPPDATA%\KomaReader\pages\`。

@@ -2,6 +2,8 @@
 
 [简体中文](README.md) · English
 
+**Legacy source, maintained as needed.** Launch, translation and CUDA on Windows hardware are pending verification for this split. [Windows verification steps (Chinese)](Windows实机验证.md) · [Mac project and downloads](https://github.com/Liuyy026/screen-capture-translator-public)
+
 Koma is a standalone Windows reader for local Japanese manga. It recognizes text with Mokuro and Manga OCR, translates it into Simplified Chinese through Ollama or an oMLX endpoint, and displays the original text and translation side by side. Chinese text can be overlaid where the reader finds a suitable region.
 
 Follow the [Windows verification guide](Windows实机验证.md) for a fresh install, including Python, OCR weights, Ollama, and optional NVIDIA CUDA. Once set up, open [启动Windows.bat](windows/启动Windows.bat), select the `samples` folder, choose `01.webp`, and click **识别并翻译** (Recognize and translate). The sample baseline is five OCR blocks with five valid translations. Page caches live at `%LOCALAPPDATA%\KomaReader\pages\`.
