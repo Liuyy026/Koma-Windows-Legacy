@@ -1,0 +1,11 @@
+.venv/
+.venv-*/
+.runtime/
+.models/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+Desktop.ini
